@@ -1,0 +1,334 @@
+<!--Welcome to "Projects Fuego..." Just follow along with comments like this one, and you'll design a really cool webtext that not only introduces you, your skills, and interests to the rest of the class, but also builds your coding literacy. Refer to the repository README for GitHub publishing help.-->
+
+<!--BTW. You can leave these faded code comments be, or delete them. Programmers and web designers use these comments to better explain what the code is doing for others who may enter the document later. They are but road signs, absent from the larger design-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Next comes the <head> information including the title and all of the important links that make the webtext work. When a browser access your url, it looks first at the index.html document <head> to learn about the names and locations of the other files and assets it will need to assemble your code into a visual display.-->
+
+  <!--Go ahead and fill in the blank in <title>I am...</title> (see just below). The <title> will appear in your document's browser tab-->
+<title>I am...</title>
+<!--The stuff below the title does important work to tell browsers what this page should look like on different screens-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Next is a link to the cascading style sheet or CSS. Web designers use a cascading stylesheet CSS to add styling to a website. Designers do this by "calling" a <div class> in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes relating font, text size, image size, among other details.-->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<!--Now we will start working in the body of the document. The body holds all of the code and content that will appear as a visual for our audience.-->
+
+<!--Designers refer to this next section as a "Hero Image." The hero image is styled on the style.css page by calling a "class." To replace the hero image, simply place a .jpg file in the same file folder (directory) as this project and name it "hero.jpg." Alternatively, if you are working with a .png, you will need to open the style.css file using your text editor, find the "hero-image" class and change the file type from ".jpg" to ".png."" Browsers will only work with .jpg, .jpeg, or .png images. Since hero images need to stretch across the screen, typically you will want to select an image 1200px in width to allow quick load time yet avoid pixilation.-->
+
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am...</h1>
+      <h2>Miles</h2>
+  </div>
+</div>
+
+
+<!--We'll use this first section to discuss where you are right now. Where do you go to school and what courses are you taking/enjoying. What majors/minors/certificates are you pursuing? Has this changed? Why? Replace the content between <h3> and </h3> that says "Lorem ipsum" etc -->
+
+
+<!--Fuego programs sometimes use "in-line styling" to provide quick fixes to content design. In the above case, you could change "left" to "right" or "center" depending on your specific design needs. That said, left align is usually best practice for improving readability.-->
+<div class="textblock" style="text-align: left">
+  <h2>Field of Study</h2>
+  <h3>Hello, Everybody.</h3>
+  <h3> I am a senior here at the University of Pittsburgh. Hopefully, this is my final semester of undergrad studying Communication, Public Professional Writing, and Marketing, but alas, school is only a side gig for me. I work full-time as Lead Member Service Representitive as well as the Marketing and Member Communications Coordinator at a Federal Credit Union, stepping in as a lending officer when market demand necessitates it. Essentially, I am responsible for overseeing the main branches' Tellers and Member Service Reps' operations as well as designing, proofing, and coordinating the distribution of all credit union publications, advertisements, and notifications...</h3>
+  <h3>... not to forget the financing of personal and automobile loans from initial inquiry to closing and disbursing funds (when market demand necessitates it).</h3>
+  <h3>Evening and online classes are helping me maintain a full-time bank hour workweek while I get my degree so I can finally put my money where my mouth is and back up what I am already doing with a piece of paper that tells others I can do what I've been doing for over a year now. *sighs*. Even so, it's taken a while, but at the end of it all, I sincerely enjoy the critical thinking and intellectual engagement that 'trying' in school can provide. It makes me want to get an MBA so I can put even more money where my mouth is in future career prospects.</h3>
+  </div>
+
+
+  <div class="photogrid">
+    <div class="row">
+        <div class="column">
+            <img src="Stoodious.jpg" alt="Image of a very polite cat laying on a bed with his paws crossed">
+            <img src="MMTasty.jpg" alt="Image of a tabby cat licking his cops on the edge of a bed">
+        </div>
+        <div class="column">
+            <img src="MonQuanie.jpg" alt="Image of a wide-eyed kitten">
+            <img src="Triade.jpg" alt="Three cats on a windowsill looking outside">
+        </div>
+        <div class="column">
+          <img src="LordBerg.jpg" alt="A fluffy grey cat basking in the golden setting suns' glow">
+          <img src="FrenchieandFerg.jpg" alt="Image of a tabby cat and a grey medium hair cat cuddling">
+      </div>
+    </div>
+        <p><em>My cats; the purrfect Frenchie, Frankie, and Ferguson.</em></p>
+    </div>
+  
+    
+<!--Replace the images here. You can also control max-image width%. Keep your file names simple, don't use spaces, and be case sensitive). Be sure to add alt="text." Visually impaired individuals using screen readers rely on alt="text" to describe pictures to them. Describe your image as clearly and succinctly as possible.-->
+
+
+  <img src="Dracula.JPG" alt="Image of a young man wearing a navy blazer in front of a Dracula ballet poster/playbill" class="center-img" style="width:25%;"></img>
+
+
+<!--What experience do you have to leverage in this class? Are you a writer, are you a maker, are you a designer, are you a thinker or critic? What is your medium/media? What interests you about that medium/those media? What media/skills do you wish to learn more about/pursue in this class?-->
+
+<div class="textblock" style="text-align: left">
+  <h2>Knowledge, Tools, and Skills</h2>
+    <h3>It has taken many experiences to gain the skills in my tool belt today. As tedious as the misadventures of growing up can be, most, if not everything our parents say and teach us is true, and we do not, in fact, know better or more than they do. I hope we are all mature enough to have realized this to some qualified degree. It has taken time, space, and mistakes to understand and appreciate. It wasn't until I was living on my own supporting myself, working full-time up the ladder, and attaining a degree that I finally understood and appreciated all that my parents instilled in me as values, standards, and expectations; all of which prove to be higher than the majority of rest of the world.</h3>
+    <h3>Back in high school, I was a well-rounded student but focused my efforts as an art and design student, taking Studio and Digital classes. I got perfect scores on my AP Art exams but continued to place second in painting for three years running in a German Arts Festival.* I spent a year during high school studying abroad in Cologne, Germany, eating Spatzle, wearing Birkenstocks, und spreche Deutsch.</h3>
+    <h3>*yea... Imagine how 'unhappy' I was by the final go-around my senior year.</h3>
+
+   <div class="photogrid">
+      <div class="row">
+          <div class="column">
+              <img src="GermanChurch.jpe" alt="Image of the Charlemange Church in Aachen">
+          </div>
+          <div class="column">
+              <img src="GermanCathy.JPG" alt="Close up image of the Kolner Dome">
+          </div>
+          <div class="column">
+              <img src="GermanHill.jpg" alt="View from a top an old medival fort in East Germany outside of Dresden">
+          </div>
+      </div>
+          <p><em>Travels abroad to Germany</em></p>
+      </div>
+
+    <h3>I've had a job since I could legally have a job. At one point, I found myself managing the Dunkin' on Forbes Avenue while enrolled in classes, their second most profitable location in the entire state. Needless to say, retail fast food almost got the better of me, as such systems are designed to do. For an idea of what I mean, in August of 2022, I worked 317 hours for 28 out of the 31 days of the month (almost 12 hours a day). I broke my foot in October, took the semester off, quit Dunkin', and started entry-level at the credit union—ever since then, I've just been doing what needs to be done, succeeding, and perfecting my craft.</h3>
+
+    <div class="photogrid">
+      <div class="row">
+          <div class="column">
+              <img src="Dunkin1.jpg" alt="Selfie of blonde curly-haired Dunkin' worker">
+          </div>
+          <div class="column">
+              <img src="Dunkin2.jpg" alt="Selfie of blonde curly-haired Dunkin' worker in front of an oven">
+          </div>
+      </div>
+    </div>
+  
+    <h3>I would say that I'm a pretty great writer, both creatively and professionally. I write over fifty emails a day for work in a customer service supervisory role, and with the amount of—If you have any additional questions or concerns, please do not hesitate to reach out; we are here and happy to assist you further's—I write, you'd think it'd be written as my epitaph(on my tombstone) someday. But even with all the South Oakland parties and an endless year of European discos, I still haven't found a feeling that compares to the one I get when I create a product—whatever it may be—and I am proud and excited about it.</h3>
+    <h3>Recently, I have been wading into Adobe's ominous waters and producing AV productions, even buying myself a $700 switchboard with a part of my Christmas bonus—a casualty to my head-first approach to most creative endeavors that excite me because god knows excitement is hard to come by being an adult. While I cannot nearly call myself an expert or even adept, I can say that given the time, I can always figure it out—somehow. Podcasts and 10 to 20-minute videos have been the majority of my projects, but I have a long and practiced history with digital art programs like Procreate and Photoshop.</h3>
+
+    <div class="photogrid">
+      <div class="row">
+          <div class="column">
+              <img src="Untitled_Artwork 2.JPG" alt="Digital mock-up rendering of Neo-Classical stairwell">
+          </div>
+          <div class="column">
+              <img src="Untitled_Artwork 3.JPG" alt="Digital rendering of the Cernegie Museum Scaife Gallery Entrance">
+          </div>
+      </div>
+    </div>
+
+    <h3>I've had a RedBubble shop since 2019 and have posted my designs throughout the years as a place to have them publicly copy-protected and make a little money off of their enjoyment. Notably, last year, I received a cease and desist from the Keith Harring Foundation for alleged intellectual property right infringement; I think the mark of a truly successful artist is adversity (a.k.a. a parody speech lawsuit I didn't have the time, bandwidth, or legal power to engage in). In the five years I have had the shop up, I have made enough to need an accountant at 22, giving myself supplemental income that has helped pay for college and my materialistic appreciations and enthusiasms. I'll always pay the dinner bill when the waiter drops it off at the table; I guess I'm just that kinda guy.</h3>
+  </div>
+
+<!--Quick fact: Did you know "Lorem ipsum," the fill text used in this web template, was hacked out of Cicero's "De finibus bonorum et malorum"? Developers made it non-sensical, so don't bother with Google Translate.-->
+
+<div class="photogrid">
+  <div class="row">
+      <div class="column">
+          <img src="Siblings.jpeg" alt="Three siblings, a older brother, an older sister, and a younger brother">
+          <img src="Parents.jpg" alt="A middle-aged married couple lighting candles on a dutch apple pie">
+          <img src="SocialSelfie.JPG" alt="Image of mother and son in hip asian fusion resturant">
+      </div>
+      <div class="column">
+          <img src="Gran.JPEG" alt="Grandparents and their two grandsons">
+          <img src="PapPap.JPG" alt="Grandparents sitting on a couch with their three grand children, son, and daughter-in-law">
+          <img src="Scouts.JPG" alt="Image of older brother and younger cub-scout brother">
+      </div>
+      <div class="column">
+          <img src="Benedum.jpg" alt="Image of mother and son in Benedum theater lobby">
+          <img src="YoungSiblings.jpeg" alt="Image of young siblings Older sister, older brother, and younger brother">
+      </div>
+  </div>
+      <p><em>Familial context.</em></p>
+  </div>
+
+<!--So, what exactly is good design? Take some time to explain your design interests...defining it, providing examples, explaining why is it important/significant-->
+<div class="textblock" style="text-align: left">
+  <h2>What is good design?</h2>
+      <h3>I hope I am not the first place this comes up, and know it's all been said at least once... somewhere... before—I believe that you can't teach taste. You either got it, or you don't. I find truer words have never been put into existence other than maybe, "Baby, you're a Firework." This is not in a pretentious or dismissive sense by any means—taste is more a feeling, an instinctual understanding of what works. Principals of design, history of culture, and contextual experiences can all aid in understanding, being gathered, and learned—yes. Still, they can't spark that feeling or feed this instinct that can manifest as simple goosebumps yet mean so much more in different contexts and appreciations. It's all about the 'vibes'; seeing through something for merely what you see, appreciating and understanding it for its unseen intention and hidden messages.</h3>
+      <h3>The biggest tool to serve me significant advantages in my endeavors is critical thinking and engagement with present context(s), practicing an ever-present sense of respectful professionalism to others. Maybe it's the way I was raised, and the older I get, the more thankful I am for my parents holding my older sister and me to adult standards and expectations. I was never baby-talked and always allowed to explore the world independently with clear boundaries and rules. From my professional experience at this point, and maybe this is just a complaint from management, but nobody seems to want to work. I could b!tch and moan, but simply, I think this generation's work ethic and workforce expectations are skewed. Nothing is handed to you. I worked long and hard, beating many other older and more 'qualified' candidates for my position. I simply proved I could, and continue to do, the best job they ask for—and then some. The extra mile buys you a seat at the table; 'Yes' is more powerful than 'No.'</h3>
+      <h3>*he dismounts the highest of horses*</h3>
+  
+  </div>
+
+<!--Replace the images here with examples of good design.-->
+
+  <div class="photogrid">
+  <div class="row">
+      <div class="column">
+          <img src="Portrait1.JPG" alt="Photorealistic painting of blonde, curly-haired boy">
+          <img src="GrotesqueNude.jpg" alt="Surreal painting of shirtless figure">
+      </div>
+      <div class="column">
+          <img src="Eyes.JPG" alt="Stylized painting of eyes, one open in color and one shut in black and white">
+          <img src="PaintedGalaxy.JPG" alt="A light blue and pink galaxy painted on a dark backround">
+          <img src="Untitled_Artwork.JPG" alt="A black and white digital rendering of a wooden paneled pass-through">
+      </div>
+      <div class="column">
+          <img src="Portrait2.JPG" alt="Stylized portrait of a figure with sunglasses in the sunset">
+          <img src="Portrait3.JPG" alt="Stylized portrait of a book looking back over his shoulder from lower right angle">
+      </div>
+  </div>
+      <p><em>A quick snapshot of my paintings from back in the day.</em></p>
+  </div>
+
+
+
+<!--Let's talk a little about the future. After school what kind of job or career would you like to pursue? What is your reasoning for going on this path? How might it connect to all of these prior elements-field of study, home and family, interests and activities? How might the work we do in this space help you to realize this future?-->
+
+<div class="textblock" style="text-align: left">
+   <h2>In the Future</h2>
+      <h3>Looking ahead—I think I want to finish out this chapter of undergraduate studies and maintain my position at the credit union, possibly convincing them to pay for the MBA that I want to get soon now that I have grown up and somehow enjoy learning, engaging, and making myself think. I want to finance my own new Ford Bronco for myself for a change. I've been living in Shadyside for almost three years now; I moved out of my parent's house at 18 and have not lived with them since, but with graduation approaching—and a good chunk of life experience gained(not nearly as much as I plan to acquire, don't you worry)—I think I might look to save some money and live with them and my 14-year-old brother, pay off student loans in a few years, get that MBA, and see which company will offer me the most money to manger a creative department or be their creative director.</h3>
+      <h3>Updates to come possibly, who knows...</h3>
+  </div>
+
+  <div>
+ <img src="TheHorrors.jpg" alt="Meme of tuxedo cat smoking a cigarette" class="center-img" style="max-width:30%;">
+    </div>
+
+    <div id="logo">
+      <img src="NicholasTheDog.JPG" alt="Childs illustration of a dog on a skateboard" style="width:15%;">
+        <p><b>designed by <a href="www.linkedin.com/in/miles-howell-9ab668289">Miles Howell</a></b></p>
+
+        <p><b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></b></p>
+        <p><em>Why make a spark when you can light a fire?</em></p>
+    </div>
+
+  </body>
+  </html>
+
+    <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
+
+
+    ***Add Text Block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <em>italics</em>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>; Tip for composing longer content: use <h3> and <p> instead of <h2> and <h3>)
+
+    <div class="textblock" style="text-align: left">
+        <h2>Header</h2>
+        <h3>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+    </div>
+
+
+
+    ***Add Block Quote***
+
+    (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+    <div class="blockquote" style="text-align: center">
+        <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+    </div>
+
+
+
+    ***Add Bulleted Points to Textblock***
+
+    (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+    <div class= "ul">
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+    </div>
+
+    -or- (try a nested list)
+
+    <div class="ul">
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+         </li>
+        <li>Milk</li>
+     </div>
+
+
+
+     ***Add a Button***
+
+     (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+
+     <div class="buttonbox">
+        <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+     </div>
+
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+     <div class="video-container">
+       <<iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+     </div>
+       <p>Add a caption.</p>
+    </div>
+
+
+
+    ***Add a Standard Image***
+
+    (Control image properties with inline width value.)
+
+    <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
+    <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+    ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
+
+    <div class="imgageblock">
+        <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
+         <p style="text-align: center"><em>Add a caption.</em></p>
+    </div>
+
+
+
+    ***Add a Photo Grid***
+
+    <div class="photogrid">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><em>Add a caption.</em></p>
+    </div>
+
+
+
+    ***Add a Parallax Window***
+
+    (To adjust window, find parallax class on style.css)
+
+    <div class="parallax"></div>
+
+
+
+    ***Add a Copyright Footer***
+
+    <div id="footer">
+      <p>Copyright Your Name, Year.</p>
+    </div>
+
+
+
+
+    ***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
+
+    Looking to use GitHub to publish this webtext to the internet? Follow the directions on the repository READ.ME.
+    Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
